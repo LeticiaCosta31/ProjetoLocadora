@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "libs"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "libs/**/*.jar",
+        "test-lib\\**\\*.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

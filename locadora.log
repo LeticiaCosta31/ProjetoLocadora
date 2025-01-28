@@ -562,3 +562,95 @@ jan. 28, 2025 5:47:45 PM Locadora connect
 INFORMAÇÕES: Conexão com o banco de dados estabelecida.
 jan. 28, 2025 5:47:45 PM Locadora buscarFilmePorId
 INFORMAÇÕES: Filme encontrado: Homem de Ferro 2
+jan. 28, 2025 6:25:50 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:25:50 PM Locadora cadastrarFilme
+INFORMAÇÕES: Filme cadastrado com sucesso: Vingadores
+jan. 28, 2025 6:25:54 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:25:54 PM Locadora listarFilmes
+INFORMAÇÕES: Filmes listados com sucesso. Total: 2
+jan. 28, 2025 6:26:08 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:26:08 PM Locadora listarFilmes
+INFORMAÇÕES: Filmes listados com sucesso. Total: 2
+jan. 28, 2025 6:26:56 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:26:56 PM Locadora atualizarFilme
+INFORMAÇÕES: Filme atualizado com sucesso: Homem de Ferro 
+jan. 28, 2025 6:26:59 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:26:59 PM Locadora listarFilmes
+INFORMAÇÕES: Filmes listados com sucesso. Total: 2
+jan. 28, 2025 6:27:24 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:27:24 PM Locadora listarFilmes
+INFORMAÇÕES: Filmes listados com sucesso. Total: 2
+jan. 28, 2025 6:27:29 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:27:29 PM Locadora deletarFilme
+INFORMAÇÕES: Filme deletado com sucesso. ID: 1
+jan. 28, 2025 6:27:32 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:27:32 PM Locadora listarFilmes
+INFORMAÇÕES: Filmes listados com sucesso. Total: 1
+jan. 28, 2025 6:27:45 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:27:45 PM Locadora listarFilmes
+INFORMAÇÕES: Filmes listados com sucesso. Total: 1
+jan. 28, 2025 6:27:48 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:27:48 PM Locadora buscarFilmePorId
+INFORMAÇÕES: Filme encontrado: Vingadores
+jan. 28, 2025 6:28:13 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:13 PM Locadora cadastrarFilme
+INFORMAÇÕES: Filme cadastrado com sucesso: Homem de Ferro
+jan. 28, 2025 6:28:13 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:13 PM Locadora buscarFilmePorId
+INFORMAÇÕES: Filme encontrado: Homem de Ferro
+jan. 28, 2025 6:28:13 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:13 PM Locadora cadastrarFilme
+INFORMAÇÕES: Filme cadastrado com sucesso: Homem de Ferro 
+jan. 28, 2025 6:28:13 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:13 PM Locadora listarFilmes
+INFORMAÇÕES: Filmes listados com sucesso. Total: 1
+jan. 28, 2025 6:28:13 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:13 PM Locadora cadastrarFilme
+INFORMAÇÕES: Filme cadastrado com sucesso: Homem de Ferro
+jan. 28, 2025 6:28:14 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:14 PM Locadora cadastrarFilme
+INFORMAÇÕES: Filme cadastrado com sucesso: Thor
+jan. 28, 2025 6:28:14 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:14 PM Locadora listarFilmes
+INFORMAÇÕES: Filmes listados com sucesso. Total: 2
+jan. 28, 2025 6:28:14 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:14 PM Locadora cadastrarFilme
+INFORMAÇÕES: Filme cadastrado com sucesso: Homem de Ferro
+jan. 28, 2025 6:28:14 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:14 PM Locadora deletarFilme
+INFORMAÇÕES: Filme deletado com sucesso. ID: 1
+jan. 28, 2025 6:28:14 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:14 PM Locadora buscarFilmePorId
+ADVERTÊNCIA: Filme com ID 1 não encontrado.
+jan. 28, 2025 6:28:14 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:14 PM Locadora cadastrarFilme
+INFORMAÇÕES: Filme cadastrado com sucesso: Homem de Ferro
+jan. 28, 2025 6:28:14 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:14 PM Locadora atualizarFilme
+INFORMAÇÕES: Filme atualizado com sucesso: Homem de Ferro 2
+jan. 28, 2025 6:28:14 PM Locadora connect
+INFORMAÇÕES: Conexão com o banco de dados estabelecida.
+jan. 28, 2025 6:28:14 PM Locadora buscarFilmePorId
+INFORMAÇÕES: Filme encontrado: Homem de Ferro 2

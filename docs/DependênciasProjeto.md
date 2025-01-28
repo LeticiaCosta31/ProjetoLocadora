@@ -8,7 +8,7 @@
 
 ## Instalação das Dependências
 * Instalar SQLite:
-    * [text](https://www.sqlite.org/releaselog/3_48_0.html)
+    * [SQLite](https://www.sqlite.org/releaselog/3_48_0.html)
 
 * Instale o JDK:
     * Baixe e instale o JDK 17 ou superior a partir do site oficial da Oracle ou OpenJDK.
@@ -20,4 +20,4 @@
     * Utilizei a classe Logger e os níveis de log de java.util.logging para registrar mensagens no console.
 
 * Instalar o Maven:
-    * [text](https://maven.apache.org/install.html)
+    * [Maven](https://maven.apache.org/install.html)

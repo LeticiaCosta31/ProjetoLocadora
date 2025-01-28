@@ -28,8 +28,19 @@
 * Descrição: Contém o ponto de entrada da aplicação e gerencia a interação com o usuário.
 * Métodos:
 
-    * main(String[] args): Método principal que inicia a aplicação.
-    * validarEntradaTexto(Scanner scanner, String mensagem): Valida a entrada de texto do usuário.
-    * validarEntradaNumerica(Scanner scanner, String mensagem): Valida a entrada numérica do usuário.
+    * main(String[] args): Método principal que inicia a aplicação. 
     * listar(Locadora locadora): Lista todos os filmes da locadora.
+   
+## Classe ValidadorEntrada
+
+* Descrição: Contém métodos para validar diferentes tipos de entrada do usuário.
+* Métodos:
+
+    * validarEntradaTexto(Scanner scanner, String mensagem): Valida a entrada de texto, garantindo que não esteja vazia.
+
+    * validarEntradaNumerica(Scanner scanner, String mensagem): Valida a entrada numérica, garantindo que seja um número inteiro.
+
+    * validarEntradaData(Scanner scanner, String mensagem): Valida a entrada de data, garantindo que esteja no formato YYYY-MM-DD e dentro do intervalo permitido (1900-2100).
+    
+    * validarAnoLancamento(Scanner scanner, String mensagem): Valida o ano de lançamento, garantindo que esteja dentro do intervalo permitido (1900-2100).
    

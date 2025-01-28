@@ -1,50 +1,10 @@
+
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    /**
-     * Método genérico para validar entrada de texto.
-     * Solicita repetidamente até que uma entrada válida seja fornecida.
-     * 
-     * @param scanner  Scanner para capturar entrada do usuário.
-     * @param mensagem Mensagem para solicitar a entrada.
-     * @return A entrada validada como String.
-     */
-    private static String validarEntradaTexto(Scanner scanner, String mensagem) {
-        System.out.print(mensagem);
-        String entrada = scanner.nextLine();
-        while (entrada.trim().isEmpty()) { // Verifica se está vazia ou contém apenas espaços
-            System.out.println("O campo é obrigatório. Por favor, insira um valor válido.");
-            System.out.print(mensagem);
-            entrada = scanner.nextLine();
-        }
-        return entrada;
-    }
-
-    /**
-     * Método genérico para validar entrada numérica (int).
-     * Solicita repetidamente até que uma entrada válida seja fornecida.
-     * 
-     * @param scanner  Scanner para capturar entrada do usuário.
-     * @param mensagem Mensagem para solicitar a entrada.
-     * @return A entrada validada como int.
-     */
-    private static int validarEntradaNumerica(Scanner scanner, String mensagem) {
-        System.out.print(mensagem);
-        while (!scanner.hasNextInt()) {
-            System.out.println("A entrada deve ser um número. Por favor, tente novamente.");
-            System.out.print(mensagem);
-            scanner.next(); // Descarta a entrada inválida
-        }
-        int entrada = scanner.nextInt();
-        scanner.nextLine(); // Consome a nova linha
-        return entrada;
-    }
-
-    /*
-     * Método para listar todos os filmes da locadora.
-     * 
-     */
+    
+    //Método para listar todos os filmes da locadora.
     private static void listar(Locadora locadora){
         List<Filme> filmes = locadora.listarFilmes();
                 for (Filme filme : filmes) {
@@ -55,6 +15,7 @@ public class Main {
     public static void main(String[] args) {
         Locadora locadora = new Locadora();
         Scanner scanner = new Scanner(System.in);
+        ValidadorEntrada validarEntrada= new ValidadorEntrada();
 
         while (true) {
             System.out.println("\nMenu:");
@@ -86,23 +47,23 @@ public class Main {
 
 
             } else if (escolha == 3) {
-                int id = validarEntradaNumerica(scanner, "Id: ");
+                int id = validarEntrada.validarEntradaNumerica(scanner, "Id: ");
+                
+              
+                String titulo = validarEntrada.validarEntradaTexto(scanner, "Título: ");
+                String diretor = validarEntrada.validarEntradaTexto(scanner, "Diretor: ");
 
-                // Usa o método genérico para validar entradas de texto
-                String titulo = validarEntradaTexto(scanner, "Título: ");
-                String diretor = validarEntradaTexto(scanner, "Diretor: ");
+                
+                int anoLancamento = validarEntrada.validarAnoLancamento(scanner, "Ano de Lançamento: ");
 
-                // Usa o método genérico para validar entrada numérica
-                int anoLancamento = validarEntradaNumerica(scanner, "Ano de Lançamento: ");
-
-                // Gênero é opcional, então não exige validação
-                System.out.print("Gênero (opcional): ");
+                
+                System.out.print("Gênero(opcional): ");
                 String genero = scanner.nextLine();
 
-                // Validação da data de estreia
-                String dataEstreia = validarEntradaTexto(scanner, "Data de Estreia (YYYY-MM-DD): ");
+                
+                String dataEstreia = validarEntrada.validarEntradaData(scanner, "Data de Estreia (YYYY-MM-DD):");
+                
 
-                // Cria o filme após validação
                 Filme filme = new Filme(id, titulo, diretor, anoLancamento, genero, dataEstreia);
                 locadora.cadastrarFilme(filme);
                 System.out.println("Filme cadastrado com sucesso.");
@@ -111,25 +72,22 @@ public class Main {
             else if (escolha == 4) {
                 listar(locadora);
                 System.out.println();
+
                 System.out.print("Digite o ID do filme: ");
                 int id = scanner.nextInt();
-                scanner.nextLine(); // Consumir a nova linha
+                scanner.nextLine(); 
 
-                System.out.print("Título: ");
-                String titulo = scanner.nextLine();
+                String titulo = validarEntrada.validarEntradaTexto(scanner, "Título: ");
+                String diretor = validarEntrada.validarEntradaTexto(scanner, "Diretor: ");
 
-                System.out.print("Diretor: ");
-                String diretor = scanner.nextLine();
+                
+                int anoLancamento = validarEntrada.validarAnoLancamento(scanner, "Ano de Lançamento: ");
 
-                System.out.print("Ano de Lançamento: ");
-                int anoLancamento = scanner.nextInt();
-                scanner.nextLine(); // Consumir a nova linha
-
-                System.out.print("Gênero: ");
+                System.out.print("Gênero (opcional): ");
                 String genero = scanner.nextLine();
 
-                System.out.print("Data de Estreia (YYYY-MM-DD): ");
-                String dataEstreia = scanner.nextLine();
+                
+                String dataEstreia = validarEntrada.validarEntradaData(scanner, "Data de Estreia (YYYY-MM-DD):");
 
                 Filme filme = new Filme(id, titulo, diretor, anoLancamento, genero, dataEstreia);
                 locadora.atualizarFilme(filme);

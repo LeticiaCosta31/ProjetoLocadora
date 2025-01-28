@@ -32,25 +32,16 @@ public class LocadoraTest {
         }
     }
 
-   /*  @After
-    public void tearDown() {
-        // Limpar a tabela após os testes
-        try (Connection conn = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Yan\\Desktop\\SQLITE\\locadora.db");
-             Statement stmt = conn.createStatement()) {
-            stmt.execute("DROP TABLE IF EXISTS filmeMarvel");
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }*/
+   
 
     @Test
     public void testCadastrarFilme() {
-        Filme filme = new Filme(1, "Homem de Ferro", "Jon Favreau", 2008, "Ação", "2008-05-02");
+        Filme filme = new Filme(1, "Homem de Ferro ", "Jon Favreau", 2008, "Ação", "2008-05-02");
         locadora.cadastrarFilme(filme);
 
         List<Filme> filmes = locadora.listarFilmes();
         assertEquals(1, filmes.size());
-        assertEquals("Homem de Ferro", filmes.get(0).getTitulo());
+        assertEquals("Homem de Ferro ", filmes.get(0).getTitulo());
     }
 
     @Test

@@ -18,6 +18,6 @@
 * Atualizar Filme
 
 <p align="center">
-  <img src="./Imagens/uml.jpeg" alt="Diagrama de Caso de Uso"><br>
+  <img src="./Imagens/casoDeUsoAtualizar.jpeg" alt="Diagrama de Caso de Uso"><br>
   Figura 3 – Diagrama de Caso de Uso - Atualizar Filme 
 </p>

@@ -10,7 +10,7 @@ O recurso escolhido para esta aplicação é um sistema de locadora de filmes da
 <li><a href="docs/DescriçãoClasses.md">  Descrição das classes </a></li>
 <li><a href="docs/DependênciasProjeto.md">Dependências do projeto </a></li>
 <li><a href="docs/Instruções.md"> Instruções de Uso </a></li>
-
+<li><a href="docs/Scriptbd.md"> Script SQLite </a></li>
 </ol>
 
 

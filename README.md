@@ -1,11 +1,14 @@
 ## Locadora 
 
-Este projeto é uma aplicação para gerenciar uma locadora de filmes com foco em produções do universo cinematográfico da Marvel. A aplicação permite gerenciar o catálogo de filmes, cadastrar, atualizar, deletar e buscar filmes. Essa aplicação foi desenvolvida em JAVA e utiliza o banco de dados SQLite para o armazenamento dos filmes. 
+O recurso escolhido para esta aplicação é um sistema de locadora de filmes da Marvel. A aplicação permite gerenciar filmes disponíveis para locação, incluindo funcionalidades para listar, buscar, cadastrar, atualizar e deletar filmes. 
 
 
 <ol>
+
 <li><a href="docs/PropriedadesRecurso.md"> Propriedades do Recurso </a></li>
-<li><a href="docs/DependênciasProjeto.md"> Dependências do projeto </a></li>
+<li><a href="docs/LinguagensEtecnologia.md"> Linguagem e Tecnologias Utilizadas </a></li>
+<li><a href="docs/DescriçãoClasses.md">  Descrição das classes </a></li>
+<li><a href="docs/DependênciasProjeto.md">Dependências do projeto </a></li>
 <li><a href="docs/Instruções.md"> Instruções de Uso </a></li>
 
 </ol>

@@ -1,5 +1,4 @@
 ## Porpriedades do Recuso
-
 - id (Obrigatório): Identificador único do filme. Tipo: INTEGER
 - titulo (Obrigatório): Título do filme. Tipo: VARCHAR(100)
 - diretor (Obrigatório): Diretor do filme. Tipo: VARCHAR(50)

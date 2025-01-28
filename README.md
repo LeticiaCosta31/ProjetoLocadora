@@ -1,18 +1,17 @@
-## Getting Started
+## Locadora 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é uma aplicação para gerenciar uma locadora de filmes com foco em produções do universo cinematográfico da Marvel. A aplicação permite gerenciar o catálogo de filmes, cadastrar, atualizar, deletar e buscar filmes. Essa aplicação foi desenvolvida em JAVA e utiliza o banco de dados SQLite para o armazenamento dos filmes. 
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+<ol>
+<li><a href="docs/PropriedadesRecurso.md"> Propriedades do Recurso </a></li>
+<li><a href="docs/DependênciasProjeto.md"> Dependências do projeto </a></li>
+<li><a href="docs/Instruções.md"> Instruções de Uso </a></li>
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+</ol>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
